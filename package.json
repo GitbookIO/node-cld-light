@@ -1,5 +1,5 @@
 {
-  "name": "node-cld-light",
+  "name": "cld-light",
   "version": "0.0.0",
   "description": "A lightweight version of node-cld (100MB smaller on install)",
   "main": "index.js",
