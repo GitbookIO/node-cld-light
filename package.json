@@ -4,7 +4,8 @@
   "description": "A lightweight version of node-cld (100MB smaller on install)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd node_modules/cld/ && rm -r ./deps/ && find ./build -type f | grep -v 'cld.node' | xargs -I{} rm {}"
   },
   "repository": {
     "type": "git",
