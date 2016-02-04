@@ -1,0 +1,25 @@
+{
+  "name": "node-cld-light",
+  "version": "0.0.0",
+  "description": "A lightweight version of node-cld (100MB smaller on install)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GitbookIO/node-cld-light.git"
+  },
+  "keywords": [
+    "cld",
+    "light",
+    "node-cld",
+    "cld2"
+  ],
+  "author": "Aaron O'Mullan <aaron@gitbook.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/GitbookIO/node-cld-light/issues"
+  },
+  "homepage": "https://github.com/GitbookIO/node-cld-light#readme"
+}
