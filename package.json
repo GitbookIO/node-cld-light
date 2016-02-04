@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/GitbookIO/node-cld-light/issues"
   },
-  "homepage": "https://github.com/GitbookIO/node-cld-light#readme"
+  "homepage": "https://github.com/GitbookIO/node-cld-light#readme",
+  "dependencies": {
+    "cld": "^2.4.5"
+  }
 }
