@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "cd node_modules/cld/ && rm -r ./deps/ && find ./build -type f | grep -v 'cld.node' | xargs -I{} rm {}"
+    "postinstall": "cd $(node -e \"console.log(require('path').dirname(require.resolve('cld')))\") && rm -r ./deps/ && find ./build -type f | grep -v 'cld.node' | xargs -I{} rm {}"
   },
   "repository": {
     "type": "git",
